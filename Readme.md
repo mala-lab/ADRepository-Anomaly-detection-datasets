@@ -183,7 +183,7 @@ YelpHotel|8,000|4,322|23.55|250
 YelpNYC|10,000|21,040|78.81|1,000
 YelpRes|10,000|18,601|28.30|726
 
-These four datasets are used by the recent [TNNLS paper](https://ieeexplore.ieee.org/document/9556511) and [AAAI paper](https://arxiv.org/abs/2212.01096)
+These four datasets were used by the recent [TNNLS paper](https://ieeexplore.ieee.org/document/9556511) and [AAAI paper](https://arxiv.org/abs/2212.01096)
 ```bibtex
 @article{ding2021cross,
   title={Cross-domain graph anomaly detection},
