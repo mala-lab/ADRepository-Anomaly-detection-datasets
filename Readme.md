@@ -20,7 +20,7 @@ This repository is created to serve as an extension to the datasets presented in
 
 ## Numerical Datasets
 
-Seven datasets from the KDD19 paper - DevNet - are available at the [DevNet_datasets](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/numerical%20data/DevNet%20datasets) folder in this repository. The basic statistics of these datasets are shown below.
+Seven datasets from the KDD19 paper - DevNet - are available at the [DevNet_datasets](./numerical%20data/DevNet%20datasets) folder in this repository. The basic statistics of these datasets are shown below.
 
 Dataset | Data size | Dimensionality
 ------------ |------------ | -------------
@@ -45,7 +45,7 @@ Detailed introduction of these datasets and some performance benchmarks can be f
 
 ## Categorical Datasets
 
-14 widely-used categorical datasets for anomaly detection are available at the [Categorical data](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/categorical%20data) folder. The basic statistics of these datasets are shown below. 
+14 widely-used categorical datasets for anomaly detection are available at the [Categorical data](./categorical%20data) folder. The basic statistics of these datasets are shown below. 
 
 Dataset   | Data size | Dimensionality| Anomaly class 
 ------------ |------------ | -------------|------------ 
@@ -92,7 +92,7 @@ Detailed introduction of these datasets and some state-of-the-art performance be
 ```
 
 ## Video Datasets
-Two popular weakly supervised video anomaly detection datasets, including ShanghaiTech Campus and UCF-Crime, are added to the [video data](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/video%20data) folder. The sources are features extracted using I3D backbone rather than raw data. Weakly supervised video anomaly detection assumes the availability of the video-level labels and aims at detecting frame-level anomalies. They can also be re-organized and used for semi-supervised settings that the training data contains normal videos only. More information about the datasets can be found in the following papers.
+Two popular weakly supervised video anomaly detection datasets, including ShanghaiTech Campus and UCF-Crime, are added to the [video data](./video%20data) folder. The sources are features extracted using I3D backbone rather than raw data. Weakly supervised video anomaly detection assumes the availability of the video-level labels and aims at detecting frame-level anomalies. They can also be re-organized and used for semi-supervised settings that the training data contains normal videos only. More information about the datasets can be found in the following papers.
 ```bibtex
 @inproceedings{sultani2018real,
   title={Real-world anomaly detection in surveillance videos},
@@ -111,7 +111,7 @@ Two popular weakly supervised video anomaly detection datasets, including Shangh
 ```
 
 ## Image Datasets
-We add 14 publicly available image datasets with real anomalies from diverse application domains, including **defect detection**, **novelty detection** in rover-based planetary exploration, **lesion detection** in medical images, and **anomaly segmentation** in autonomous driving scenes. See [image data](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/image%20data) for more details. These datasets are used to evaluate a wide range of detection models in different settings (e.g., **open-set anomaly detection** and **out-of-distribution semantic segmentation**) in the following paper:
+We add 14 publicly available image datasets with real anomalies from diverse application domains, including **defect detection**, **novelty detection** in rover-based planetary exploration, **lesion detection** in medical images, and **anomaly segmentation** in autonomous driving scenes. See [image data](./image%20data) for more details. These datasets are used to evaluate a wide range of detection models in different settings (e.g., **open-set anomaly detection** and **out-of-distribution semantic segmentation**) in the following paper:
 ```bibtex
 @article{pang2021explainable,
   title={Explainable Deep Few-shot Anomaly Detection with Deviation Networks},
@@ -144,7 +144,7 @@ We add 14 publicly available image datasets with real anomalies from diverse app
 ```
 
 ## Graph Datasets
-16 real-world datasets for **graph-level anomaly detection** are added. Basic statistics of these datasets are as follows. See [graph data](https://github.com/GuansongPang/ADRepository-Anomaly-detection-datasets/tree/main/graph%20data) for more detail.
+16 real-world datasets for **graph-level anomaly detection** are added. Basic statistics of these datasets are as follows. See [graph data](./graph%20data) for more detail.
 
 Dataset| #Graphs|#Avg. Nodes|#Avg. Edges
 ------------ |------------ | ------------- |------------ 
@@ -232,6 +232,6 @@ There are some concerns on the use of these popular datasets. Check out the belo
 }
 ```
 
-See the [time series data](https://github.com/GuansongPang/ADRepository-Anomaly-detection-datasets/tree/main/time%20series%20data) folder for any update of this section.
+See the [time series data](./time%20series%20data) folder for any update of this section.
 
 
