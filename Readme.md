@@ -144,7 +144,7 @@ We add 14 publicly available image datasets with real anomalies from diverse app
 ```
 
 ## Graph Datasets
-16 real-world datasets for graph-level anomaly detection are added. Basic statistics of these datasets are as follows. See [graph data](https://github.com/GuansongPang/ADRepository-Anomaly-detection-datasets/tree/main/graph%20data) for more detail.
+16 real-world datasets for **graph-level anomaly detection** are added. Basic statistics of these datasets are as follows. See [graph data](https://github.com/GuansongPang/ADRepository-Anomaly-detection-datasets/tree/main/graph%20data) for more detail.
 
 Dataset| #Graphs|#Avg. Nodes|#Avg. Edges
 ------------ |------------ | ------------- |------------ 
@@ -172,6 +172,32 @@ The datasets were used and made available by the authors of the following paper.
   author={Ma, Rongrong and Pang, Guansong and Chen, Ling and van den Hengel, Anton},
   booktitle={The Fifteenth ACM International Conference on Web Search and Data Mining},
   year={2022}
+}
+```
+
+Below are four **cross-domain graph anomaly detection** datasets:
+Dataset| #Attributes|#Nodes|#Avg. Degree|#Anomalies
+------------ |------------ | ------------- |------------  |------------ 
+Amazon|8,000|5,012|41.79|250
+YelpHotel|8,000|4,322|23.55|250
+YelpNYC|10,000|21,040|78.81|1,000
+YelpRes|10,000|18,601|28.30|726
+
+They are used by the recent [TNNLS paper](https://ieeexplore.ieee.org/document/9556511) and [AAAI paper](https://arxiv.org/abs/2212.01096)
+```bibtex
+@article{ding2021cross,
+  title={Cross-domain graph anomaly detection},
+  author={Ding, Kaize and Shu, Kai and Shan, Xuan and Li, Jundong and Liu, Huan},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2021},
+  publisher={IEEE}
+}
+
+@inproceedings{wang2023cross,
+  title={Cross-Domain Graph Anomaly Detection via Anomaly-aware Contrastive Alignment},
+  author={Wang, Qizhou and Pang, Guansong and Salehi, Mahsa and Buntine, Wray and Leckie, Christopher},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2023}
 }
 ```
 
