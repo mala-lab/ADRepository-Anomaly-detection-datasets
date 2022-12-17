@@ -23,3 +23,38 @@ p53|8,903|17.92|18.34
 PPAR-gamma|8,451|17.38|17.72
 COLLAB|5,000|74.49|2,457.78
 hERG|655|26.48|28.79
+
+```bibtex
+@inproceedings{ma2022deep,
+  title={Deep Graph-level Anomaly Detection by Glocal Knowledge Distillation},
+  author={Ma, Rongrong and Pang, Guansong and Chen, Ling and van den Hengel, Anton},
+  booktitle={The Fifteenth ACM International Conference on Web Search and Data Mining},
+  year={2022}
+}
+```
+
+Below are four **cross-domain graph anomaly detection** datasets:
+Dataset| #Attributes|#Nodes|#Avg. Degree|#Anomalies
+------------ |------------ | ------------- |------------  |------------ 
+Amazon|8,000|5,012|41.79|250
+YelpHotel|8,000|4,322|23.55|250
+YelpNYC|10,000|21,040|78.81|1,000
+YelpRes|10,000|18,601|28.30|726
+
+These four datasets were originally used in Ding et al.'s [TNNLS paper](https://ieeexplore.ieee.org/document/9556511) and also used in the recent Wang et al.'s [AAAI paper](https://arxiv.org/abs/2212.01096).
+```bibtex
+@article{ding2021cross,
+  title={Cross-domain graph anomaly detection},
+  author={Ding, Kaize and Shu, Kai and Shan, Xuan and Li, Jundong and Liu, Huan},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2021},
+  publisher={IEEE}
+}
+
+@inproceedings{wang2023cross,
+  title={Cross-Domain Graph Anomaly Detection via Anomaly-aware Contrastive Alignment},
+  author={Wang, Qizhou and Pang, Guansong and Salehi, Mahsa and Buntine, Wray and Leckie, Christopher},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2023}
+}
+```
