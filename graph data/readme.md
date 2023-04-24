@@ -33,6 +33,8 @@ hERG|655|26.48|28.79
 }
 ```
 
+## Node-level anomaly detection
+
 Below are four **cross-domain graph anomaly detection** datasets:
 Dataset| #Attributes|#Nodes|#Avg. Degree|#Anomalies
 ------------ |------------ | ------------- |------------  |------------ 
